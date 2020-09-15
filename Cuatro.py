@@ -1,0 +1,5 @@
+f=open("e:\\Newfile.txt","a")
+f.write(input("enter your text"))
+f.close()
+f=open("e:\\Newfile.txt","r")
+print(f.read())
